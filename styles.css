@@ -23,6 +23,7 @@ body {
     position: absolute;
     top: 30px;
     left: 30px;
+    z-index: 3;
 }
 
 .box.blue {
@@ -30,6 +31,7 @@ body {
     position: absolute;
     top: 40px;
     left: 40px;
+    z-index: 2;
 }
 
 .box.purple {
@@ -41,4 +43,5 @@ body {
 
 .box.green {
     background-color: green;
+    z-index: 10000;
 }
